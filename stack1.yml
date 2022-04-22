@@ -10,6 +10,5 @@ services:
   ports:
    - 8989:80
   deploy: 
-   replicas: 3
+   replicas: 2
 
-   
