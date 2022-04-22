@@ -1,5 +1,5 @@
 apiVersion: apps/v1
-kind: Deployment
+kind: Deployment-Pod
 metadata: 
  name: nginx-Deployment
  labels:
@@ -21,4 +21,4 @@ spec:
       image: nginx:1.7.9
       ports: 
        - containerPorts: 80
-         HostPort: 8888
+         HostPort: 8989
